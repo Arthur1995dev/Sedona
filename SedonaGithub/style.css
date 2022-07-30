@@ -1053,8 +1053,10 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.button_container .button-2 {
+.button_container .button-form {
   width: 50%;
+  border: none;
+  outline: none;
 }
 
 @media (max-width: 620px) {
@@ -1133,7 +1135,7 @@ body {
   .form_container .form .button_container {
     order: 6;
   }
-  .form_container .form .button_container .button-2 {
+  .form_container .form .button_container .button-form {
     width: 100%;
   }
   .form_container .form .button_container span:nth-child(2) {
@@ -1278,6 +1280,11 @@ body {
 .initial_block .form_father-name input {
   width: 100%;
 }
+.initial_block .form_name input:invalid:focus,
+.initial_block .form_surname input:invalid:focus,
+.initial_block .form_father-name input:invalid:focus {
+  border: 1px solid red;
+}
 
 @media (max-width: 768px) {
   .form_container {
@@ -1331,6 +1338,10 @@ body {
 .contact_info_container fieldset .mail .input_container input {
   width: 100%;
   box-sizing: border-box;
+}
+.contact_info_container fieldset .tel .input_container input:invalid:focus,
+.contact_info_container fieldset .mail .input_container input:invalid:focus {
+  border: 1px solid red;
 }
 .contact_info_container .tel {
   padding-right: 75px;
@@ -1452,7 +1463,6 @@ body {
   height: 160px;
   margin-top: 70px;
   background: #F2F2F2;
-  padding: 20px;
   box-sizing: border-box;
 }
 .feedback_container fieldset .feedback_item_container textarea {
@@ -1475,6 +1485,9 @@ body {
 .feedback_container fieldset .feedback_item_container textarea::placeholder {
   opacity: 1;
 }
+.feedback_container fieldset .feedback_item_container textarea:invalid:focus {
+  border: 1px solid red;
+}
 
 @media (max-width: 768px) {
   .feedback_container {
@@ -1489,4 +1502,54 @@ body {
     white-space: nowrap;
     width: 100%;
   }
+}
+.popup_container {
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.popup {
+  width: 400px;
+  height: 347px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background: white;
+  box-shadow: 0 0 10px 0 rgb(122, 98, 98);
+}
+.popup h2 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  width: 272px;
+}
+.popup p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+  width: 272px;
+}
+.popup .button {
+  width: 272px;
+  height: 58px;
+}
+
+.popup_active {
+  visibility: visible;
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */

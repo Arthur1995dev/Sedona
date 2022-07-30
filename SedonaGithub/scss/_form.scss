@@ -63,8 +63,10 @@
     width: 100%;
     margin-top: 60px;
     @include flex-between;
-    .button-2 {
+    .button-form {
         width: 50%;
+        border: none;
+        outline: none;
     }
 }
 
@@ -146,7 +148,7 @@
             }
             .button_container {
                 order: 6;
-                .button-2 {
+                .button-form {
                     width: 100%;
                 }
                 span:nth-child(2) {

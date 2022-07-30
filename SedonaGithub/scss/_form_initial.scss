@@ -27,6 +27,11 @@
             width: 100%;
         }
     }
+    .form_name input:invalid:focus,
+    .form_surname input:invalid:focus,
+    .form_father-name input:invalid:focus {
+        border: 1px solid red;
+    }
 }
 
 @media (max-width:768px) {
