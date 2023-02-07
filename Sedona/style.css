@@ -96,7 +96,7 @@ body {
   align-items: center;
   width: 100%;
   height: 518px;
-  background: url(/img/back-header.jpg) no-repeat 50% 50%;
+  background: url(img/back-header.jpg) no-repeat 50% 50%;
 }
 .header_body .intro {
   position: absolute;
@@ -313,14 +313,14 @@ body {
   flex-shrink: 1;
   height: 256px;
   width: 800px;
-  background: url(/img/photo-1.jpg) no-repeat 50% 50%;
+  background: url(img/photo-1.jpg) no-repeat 50% 50%;
 }
 
 .block2 {
   flex-direction: row-reverse;
 }
 .block2 .description_photo {
-  background: url(/img/photo-2.jpg) no-repeat 50% 50%;
+  background: url(img/photo-2.jpg) no-repeat 50% 50%;
 }
 
 .description_main_content {
@@ -459,7 +459,7 @@ body {
 .map {
   width: 100%;
   height: 350px;
-  background: url(/img/map-desktop.jpg) no-repeat 50% 50%;
+  background: url(img/map-desktop.jpg) no-repeat 50% 50%;
 }
 
 @media (max-width: 320px) {
@@ -622,7 +622,7 @@ body {
 .gallery_main-item {
   width: 100%;
   height: 400px;
-  background: url(/img/gallery-1.jpg) no-repeat 50% 50%;
+  background: url(img/gallery-1.jpg) no-repeat 50% 50%;
   position: relative;
 }
 
@@ -636,13 +636,13 @@ body {
   position: relative;
 }
 .gallery_sub_items .gallery-1 {
-  background: url(/img/gallery-2.jpg) no-repeat 50% 50%;
+  background: url(img/gallery-2.jpg) no-repeat 50% 50%;
 }
 .gallery_sub_items .gallery-2 {
-  background: url(/img/gallery-3.jpg) no-repeat 50% 50%;
+  background: url(img/gallery-3.jpg) no-repeat 50% 50%;
 }
 .gallery_sub_items .gallery-3 {
-  background: url(/img/gallery-4.jpg) no-repeat 50% 50%;
+  background: url(img/gallery-4.jpg) no-repeat 50% 50%;
 }
 
 .gallery_bottom_layer {
@@ -1201,8 +1201,7 @@ body {
 
 @media (max-width: 768px) {
   .impression_block h2 {
-    margin: 0;
-    margin-bottom: 60px;
+    margin: 0 0 60px;
   }
   .impression_block .custom-radio {
     margin-left: 0;
@@ -1421,15 +1420,15 @@ body {
 }
 
 .custom-checkbox > input:checked + span::before {
-  background: url(/img/checked.svg) no-repeat 50% 50%;
+  background: url(img/checked.svg) no-repeat 50% 50%;
 }
 
 .custom-checkbox > input:checked:hover + span:hover::before {
-  background: url(/img/ch-hover.svg) no-repeat 50% 50%;
+  background: url(img/ch-hover.svg) no-repeat 50% 50%;
 }
 
 .custom-checkbox > input:checked:active + span:active::before {
-  background: url(/img/ch-click.svg) no-repeat 50% 50%;
+  background: url(img/ch-click.svg) no-repeat 50% 50%;
 }
 
 @media (max-width: 768px) {

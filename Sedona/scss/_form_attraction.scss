@@ -46,15 +46,15 @@
 }
 
 .custom-checkbox>input:checked+span::before {
-    background: url(/img/checked.svg) no-repeat 50% 50%;
+    background: url(img/checked.svg) no-repeat 50% 50%;
 }
 
 .custom-checkbox>input:checked:hover+span:hover::before {
-    background: url(/img/ch-hover.svg) no-repeat 50% 50%;
+    background: url(img/ch-hover.svg) no-repeat 50% 50%;
 }
 
 .custom-checkbox>input:checked:active+span:active::before {
-    background: url(/img/ch-click.svg) no-repeat 50% 50%;
+    background: url(img/ch-click.svg) no-repeat 50% 50%;
 }
 
 @media (max-width: 768px) {

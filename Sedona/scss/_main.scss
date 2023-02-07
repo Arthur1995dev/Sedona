@@ -62,13 +62,13 @@
         flex-shrink: 1;
         height: 256px;
         width: 800px;
-        background: url(/img/photo-1.jpg) no-repeat 50% 50%;
+        background: url(img/photo-1.jpg) no-repeat 50% 50%;
     }
 }
 .block2 {
     flex-direction: row-reverse;
     .description_photo {
-        background: url(/img/photo-2.jpg) no-repeat 50% 50%;
+        background: url(img/photo-2.jpg) no-repeat 50% 50%;
     }
 }
 
@@ -184,7 +184,7 @@
 .map {
     width: 100%;
     height: 350px;
-    background: url(/img/map-desktop.jpg) no-repeat 50% 50%;
+    background: url(img/map-desktop.jpg) no-repeat 50% 50%;
 }
 
 @media (max-width: 320px) {
